@@ -1,0 +1,24 @@
+{
+  "name": "woodworkingSite",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "MacLean"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/BenMacLean/woodworkingSite",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "jQuery": "^2.2.2",
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3"
+  }
+}

@@ -27,7 +27,10 @@ var jsFilesToInject = [
 
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
-
+  'bower_components/jQuery/dist/jquery.js',
+  'bower_components/angular/angular.js',
+  'bower_components/angular-route/angular-route.js',
+  // '/bower_components/angular-ui-router/relase/angular-ui-router.js',
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
 
@@ -48,6 +51,7 @@ var jsFilesToInject = [
 // for information on customizing and installing new tasks.
 var templateFilesToInject = [
   'templates/**/*.html'
+
 ];
 
 
@@ -71,5 +75,3 @@ module.exports.jsFilesToInject = jsFilesToInject.map(function(jsPath) {
 module.exports.templateFilesToInject = templateFilesToInject.map(function(tplPath) {
   return require('path').join('assets/',tplPath);
 });
-
-
